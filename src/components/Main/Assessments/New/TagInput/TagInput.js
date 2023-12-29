@@ -35,7 +35,7 @@ const TagInput = () => {
           {tags.map((tag, index) => (
             <span key={index} className="tag">
               {tag}
-              <button type="" onClick={() => handleTagRemove(event, tag)}>
+              <button type="" onClick={() => handleTagRemove(tag)}>
                 <img src="/assets/menu/close.svg" alt="close" />
               </button>
             </span>
